@@ -25,10 +25,10 @@ const frameMetadata = getFrameMetadata({
 });
 
 export const metadata: Metadata = {
-  title: 'daobase.ai',
+  title: 'DAO Badge',
   description: 'LFG',
   openGraph: {
-    title: 'daobase.ai',
+    title: 'DAO Badge',
     description: 'LFG',
     images: [`${NEXT_PUBLIC_URL}/park-1.png`],
   },
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <h1>daobase.ai</h1>
+      <h1>DAO Badge</h1>
     </>
   );
 }
