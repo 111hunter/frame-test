@@ -9,7 +9,7 @@ const frameMetadata = getFrameMetadata({
     },
     {
       action: 'tx',
-      label: 'Send Base Sepolia',
+      label: 'Mint',
       target: `${NEXT_PUBLIC_URL}/api/tx`,
       postUrl: `${NEXT_PUBLIC_URL}/api/tx-success`,
     },
@@ -25,10 +25,10 @@ const frameMetadata = getFrameMetadata({
 });
 
 export const metadata: Metadata = {
-  title: 'zizzamia.xyz',
+  title: 'daobase.ai',
   description: 'LFG',
   openGraph: {
-    title: 'zizzamia.xyz',
+    title: 'daobase.ai',
     description: 'LFG',
     images: [`${NEXT_PUBLIC_URL}/park-1.png`],
   },
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <h1>zizzamia.xyz</h1>
+      <h1>daobase.ai</h1>
     </>
   );
 }
